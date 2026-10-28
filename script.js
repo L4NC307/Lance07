@@ -1,5 +1,8 @@
 const tabs = document.querySelectorAll(".tab");
-const panels = { it: document.getElementById("it-panel"), creative: document.getElementById("creative-panel") };
+const panels = {
+  it: document.getElementById("it-panel"),
+  creative: document.getElementById("creative-panel")
+};
 
 tabs.forEach(tab => {
   tab.addEventListener("click", () => {
